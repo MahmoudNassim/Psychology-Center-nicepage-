@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+}
+/* Start info */
+.logo {
+  width: 5%;
+  height: 10vh;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+.logo img {
+  padding-left: 20px;
+  padding-top: 5px;
+  width: 100%;
+  height: 40%;
+}
+.circle {
+  width: 94px;
+  height: 94px;
+  border-radius: 50%;
+  background-color: #ced8e9;
+  margin: 20px 20px;
+  position: relative;
+  left: 90px;
+}
+.container {
+  padding: 20px;
+  width: 90%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.container .left {
+  width: 40%;
+  height: 100%;
+  padding: 20px;
+}
+.container .left h1 {
+  font-family: "Oswald", sans-serif;
+  color: #8da3c8;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.container .left p {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+.text p {
+  display: inline;
+}
+.text a {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-weight: 300;
+}
+.text {
+  margin-bottom: 25px;
+}
+.left button {
+  font-family: "Open Sans", sans-serif;
+  background-color: #8da3c8;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+}
+.container .right {
+  width: 60%;
+  height: 100%;
+  position: relative;
+}
+.container .right img {
+  width: 85%;
+  height: 85%;
+  object-fit: cover;
+}
+.image-circle {
+  width: 228px;
+  height: 228px;
+  background-color: #ced8e9;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/* End info */
+/* Start team-info */
+.team-con {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+  height: 15%;
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.team-info {
+  margin: 20px auto;
+  width: 80%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+.first {
+  height: calc(85% / 3);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.first .right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+.first .left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  margin-left: 20px;
+}
+.second {
+  height: calc(85% / 3);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.second .right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+.second .left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+.third {
+  height: calc(85% / 3);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.third .right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+.third .left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.team-info h1 {
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+}
+.team-info p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+.kinfo {
+  height: 100%;
+  width: 50%;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 20px;
+}
+.tinfo {
+  height: 100%;
+  width: 50%;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 20px;
+}
+.linfo {
+  height: 100%;
+  width: 50%;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 20px;
+}
+.sinfo {
+  height: 100%;
+  width: 50%;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 20px;
+}
+.dinfo {
+  height: 100%;
+  width: 50%;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 20px;
+}
+.cinfo {
+  height: 100%;
+  width: 50%;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 20px;
+}
+.team-info img {
+  width: 141px;
+  height: 141px;
+  margin: 10px 20px;
+  outline: 5px solid #acbcd9;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.kimage {
+  width: auto;
+  height: 100%;
+  border-radius: 50%;
+}
+.timage {
+  width: auto;
+  height: 100%;
+  border-radius: 50%;
+  margin: 10px 20px;
+}
+.limage {
+  width: auto;
+  height: 100%;
+  border-radius: 50%;
+  margin: 10px 20px;
+}
+.simage {
+  width: auto;
+  height: 100%;
+  border-radius: 50%;
+  margin: 10px 20px;
+}
+.dimage {
+  width: auto;
+  height: 100%;
+  border-radius: 50%;
+  margin: 10px 20px;
+}
+.cimage {
+  width: auto;
+  height: 100%;
+  border-radius: 50%;
+  margin: 10px 20px;
+}
+.team-info .text {
+  width: 100%;
+  text-align: center;
+}
+.team-info .text p {
+  font-style: normal;
+}
+/* End team-info */
+/* Get Started */
+.started-con {
+  margin-top: 25px;
+  background-color: #ced8e9;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-con {
+  width: 75%;
+  height: 50%;
+  background-color: white;
+  display: flex;
+}
+.content-con .left {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  right: -40px;
+}
+.content-con .left img {
+  width: 260px;
+  border-radius: 50%;
+  height: 260px;
+}
+.content-con .left .circle {
+  background-color: #8da3c8;
+  border-radius: 50%;
+  width: 87px;
+  height: 87px;
+  position: absolute;
+  top: 0px;
+  left: 125px;
+}
+.content-con .right {
+  width: 50%;
+  height: 100%;
+}
+.content-con .content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+.content-con .content h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 48px;
+}
+.content-con .content p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+.content-con .content .number {
+  font-size: 36px;
+}
+
+/* End Get Started*/
