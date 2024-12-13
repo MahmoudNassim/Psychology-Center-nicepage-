@@ -302,15 +302,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 25px;
 }
 .content-con {
-  width: 75%;
+  width: 88%;
   height: 50%;
   background-color: white;
   display: flex;
 }
 .content-con .left {
-  width: 50%;
+  width: 40%;
   height: 100%;
   text-align: center;
   position: relative;
@@ -322,14 +323,14 @@ body {
   border-radius: 50%;
   height: 260px;
 }
-.content-con .left .circle {
+.content-con .left .circle-start {
   background-color: #8da3c8;
   border-radius: 50%;
   width: 87px;
   height: 87px;
   position: absolute;
-  top: 0px;
-  left: 125px;
+  top: 10px;
+  left: 75px;
 }
 .content-con .right {
   width: 50%;
@@ -354,5 +355,87 @@ body {
 .content-con .content .number {
   font-size: 36px;
 }
-
 /* End Get Started*/
+/* Start Form */
+.form-con {
+  width: 100%;
+  height: 90%;
+  background-color: white;
+  display: flex;
+  margin: 20px auto 0;
+}
+
+.form-con .image-form {
+  width: 50%;
+  height: 100%;
+  text-align: end;
+}
+.form-con .image-form img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.form-con .therapy-form {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.therapy-form h1 {
+  font-size: 3.5rem;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+.therapy-form .text {
+    width: 70%;
+    margin-top: 25px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+.therapy-form a {
+  font-size: 18px;
+}
+input {
+  height: 85%;
+  padding: 10px 12px;
+  border-width: 0 0 2px 0;
+  margin: 15px 10px;
+  border-bottom-color: #000000;
+  font-size: 20px;
+}
+.user {
+  width: 74%;
+  margin-left: 25px;
+}
+.user .bottom {
+  display: flex;
+  flex-direction: column;
+  width: 87%;
+  /* height: 80%; */
+}
+textarea {
+  padding: 10px 12px;
+  border-width: 0 0 2px 0;
+  margin: 10px 10px;
+  border-bottom-color: #000000;
+  font-size: 20px;
+}
+button {
+  width: 96%;
+  background-color: white;
+  border: 2px solid black;
+  padding: 20px 0;
+  margin: 10px auto;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+button:hover{
+  background-color: #000000;
+  color: white;
+}
+/* End Form */
